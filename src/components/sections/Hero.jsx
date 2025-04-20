@@ -179,8 +179,8 @@ const ResumeButton = styled.a`
 
 const Img = styled.img`
   border-radius: 50%;
-  width: 100%;
-  height: 100%;
+  width: 200%;
+  height: 200%;
   max-width: 400px;
   max-height: 400px;
   border: 2px solid ${({ theme }) => theme.primary};
@@ -195,10 +195,10 @@ const HeroBg = styled.div`
   position: absolute;
   display: flex;
   justify-content: end;
-  top: 0;
+  top: ;
   right: 0;
   bottom: 0;
-  left: 0;
+  left: 50%;
   width: 100%;
   height: 100%;
   max-width: 1360px;
